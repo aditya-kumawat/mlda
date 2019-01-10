@@ -1,0 +1,64 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: black;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .title {
+    margin: 0 60px;
+  }
+
+  .menu-container {
+    padding: 0;
+    margin: 0;
+
+    .menu-button {
+      position: relative;
+
+      .menu {
+        h4 {
+          padding: 0 15px;
+          font-weight: 600;
+        }
+  
+        &.active {
+          color: #b47525;
+        }
+      }
+    
+      .menu-list {
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        background: gray;
+        
+        .option {
+          border-bottom: solid 1px white;
+          
+          h4 {
+            padding: 5px 15px;
+            color: lightgray; 
+          }
+
+          &:hover {
+            background: lightgray;
+
+            h4 {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.afterHeader {
+  padding-top: 60px;
+}
