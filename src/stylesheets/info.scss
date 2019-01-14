@@ -1,0 +1,28 @@
+.info {
+  padding: 20px 15%;
+  
+  .title {
+    width: 100%;
+    border-bottom: solid 1px gray;
+
+    h2 {
+      font-weight: normal;
+      padding: 10px 0;
+    }
+  }
+
+  .container {
+    width: 100%;
+
+    .highlight {
+      margin: 15px 0;
+      background: orange;
+      border-radius: 6px;
+      padding: 20px 0;
+
+      * {
+        font-size: 20px;
+      }
+    }
+  }
+}

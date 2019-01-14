@@ -34,7 +34,7 @@ class Header extends Component {
     return (        
 			<div className='flex-row flex-center-both header'>
         <Link to='/' className='flex-col flex-center-cross title'>
-          <h1>MLDA 2018</h1>
+          <h1>MLDA 2019</h1>
         </Link>
         <div className='flex-row flex-center-cross menu-container'>
           { 
